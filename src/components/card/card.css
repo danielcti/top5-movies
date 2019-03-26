@@ -1,0 +1,72 @@
+.card {
+    padding: 0.4em 0.4em 0.4em 0.8em;
+    margin: 1.2em 0 0.5em 2.5em;
+    position: relative;
+    display: flex;
+    background: #ddd;
+}
+
+.card-body {
+    font-family: 100% "Frank Ruhl Libre", serif;
+}
+
+.rank-number {
+    border-style: solid;
+    border-width: 0.085em;
+    border-color: #4a4a4a;
+    width: 1.3em;
+    font-family: 100% "Frank Ruhl Libre", serif;
+    font-size: 1.3em;
+}
+
+.add {
+    position: absolute;
+    justify-items: right;
+    left: 26rem;
+    margin-top: -0.5em;
+}
+
+.input {
+    font-family: 100% "Frank Ruhl Libre", serif;
+    color: #fa0a0a;
+    position: absolute;
+    justify-items: right;
+    left: 29rem;
+    margin-top: -0.5em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+
+.list-group {
+    font-family: 100% "Frank Ruhl Libre", serif;
+    color: #fa0a0a;
+    position: absolute;
+    justify-items:center;
+    left: 29rem;
+    margin-top: 1em;
+    padding-top: 1.5em;
+    text-align: center;
+    width: 20em;
+    font-size: 12px;
+}
+
+.list-group-item {
+    cursor: pointer
+}
+
+.poster{ 
+    height: 120px;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie-name {
+    font-family: 100% "Frank Ruhl Libre", serif;
+    color: #013f3791;
+    position: absolute;
+    justify-items:center;
+    margin-left: auto;
+    margin-right: auto;
+}

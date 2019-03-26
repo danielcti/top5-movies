@@ -1,0 +1,20 @@
+.share {
+    position: relative;
+    margin-top:1.4em;
+    left: 15%;
+    width: 10px;
+    
+
+}
+
+.Demo__some-network {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+  }
+  
+  .Demo__some-network__share-button {
+    cursor: pointer;
+  }
+  
