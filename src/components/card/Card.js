@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './card.css'
 const imdb = require('imdb-api')
-// const imdbKey = require('../../content/credentials.json').imdbKey
+const imdbKey = require('../../content/credentials.json').imdbKey
 
 class Card extends Component{
     constructor(props){
