@@ -24,3 +24,5 @@ yarn-error.log*
 
 # Credentials
 /src/content/*.json
+
+.env
