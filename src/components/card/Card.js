@@ -23,6 +23,7 @@ class Card extends Component{
             this.restartData()
             this.props.handleUpdate(this.state.movieChosen, false)
         }
+        console.log('??')
         const actualBoolValue = this.state.openInputForm
         this.setState({openInputForm: !actualBoolValue})
     }
@@ -67,7 +68,7 @@ class Card extends Component{
     render (){
         return (
             <div className='container'>
-            <div className="card" style={{width: "26rem"}}>
+            <div className="card">
                 <h3 className='rank-number'>{this.props.index}</h3>
                 {this.state.isMovieChosen && 
                 <img src={this.state.movieChosen[0].poster} className="card-img-top poster" alt="poster" />

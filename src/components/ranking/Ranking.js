@@ -35,6 +35,7 @@ class Ranking extends Component{
             this.setState({
                 movies: [...this.state.movies, movie[0]]
             })    
+            window.scrollTo(0,document.body.scrollHeight);
         }else{
             const newMoviesArray = this.state.movies.filter((m) => {
                 if(movie[0] === m){

@@ -4,6 +4,7 @@
     position: relative;
     display: flex;
     background: #ddd;
+    width:26rem
 }
 
 .card-body {
@@ -70,3 +71,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (max-width: 450px) {
+    .card {
+      margin: 2em 0 -0.5em -0.5em;;
+      width:12rem
+    }
+    .add{
+        left:12rem
+    }
+    .input{
+        left:14rem;
+        width:11em;
+    }
+    .list-group{
+        left:14rem;
+        width: 14.5em
+    }
+  }
