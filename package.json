@@ -29,5 +29,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage" : "http://danielcti.github.io/top5-movies"
+  "homepage": "http://danielcti.github.io/top5-movies"
 }
